@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AirlineBookingModel">
+      <HintPath>..\AirlineBookingModel\bin\Debug\net8.0\AirlineBookingModel.dll</HintPath>
+    </Reference>
+    <Reference Include="AirlineDataServices">
+      <HintPath>..\AirlineDataServices\bin\Debug\net8.0\AirlineDataServices.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
